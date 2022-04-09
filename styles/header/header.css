@@ -1,0 +1,129 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10.7rem;
+}
+
+.header-first-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.header-box-title {
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+.header-title {
+  font-size: 5.1rem;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.header-title-description {
+  text-align: center;
+}
+
+.header-button-wrapper {
+  width: 37%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  border-radius: 7px;
+  border: none;
+  transition-duration: 300ms;
+}
+
+.button-register {
+  height: 5.5rem;
+  width: 27.1rem;
+  background-color: var(--blue);
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.button-register:hover {
+  color: var(--blue);
+  background-color: transparent;
+  border: 1px solid var(--blue);
+}
+
+.button-close {
+  height: 5.5rem;
+  width: 11.1rem;
+  background-color: #ee4c4c;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.button-close:hover {
+  background-color: transparent;
+  color: #ee4c4c;
+  border: 1px solid #ee4c4c;
+}
+
+@media screen and (max-width: 1080px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header-first-box {
+    padding: 0 2rem 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .header-button-wrapper {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding-right: 3.7rem;
+  }
+
+  .header-button-wrapper {
+    width: 90%;
+  }
+
+  .button-register {
+    width: 28rem;
+    font-size: 1.8rem;
+  }
+
+  .button-close {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .header {
+    padding-right: 1.7rem;
+  }
+  .welcome-text {
+    font-size: 1.6rem;
+  }
+  .header-button-wrapper {
+    width: 90%;
+  }
+
+  .button-register {
+    width: 18rem;
+    font-size: 1.6rem;
+  }
+
+  .button-close {
+    font-size: 1.6rem;
+  }
+}

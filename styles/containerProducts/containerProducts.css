@@ -1,0 +1,66 @@
+.container-products {
+  width: 100%;
+  margin: auto;
+}
+
+.list-cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3.3rem;
+}
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 33.5rem;
+  height: 43.9rem;
+  border-radius: 16px;
+  background-color: #bfbfbf2e;
+  padding: 2rem;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #b9b5ff2e;
+}
+
+.logo {
+  margin-bottom: 2.3rem;
+  width: 70%;
+}
+
+.logo-description {
+  margin-bottom: 1.7rem;
+}
+
+.description-card-box {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-bottom: 2.9rem;
+}
+
+.button-wrapper-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-action {
+  height: 4rem;
+  width: 13.1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: var(--blue);
+}
+
+.button-action:hover {
+  background-color: transparent;
+  color: var(--blue);
+  border: 1px solid var(--blue);
+}
